@@ -1,0 +1,67 @@
+
+
+/* ETIQUETAS HTML  */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html{
+    cursor: none;
+}
+
+
+canvas{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  
+
+
+}
+
+
+body{
+   
+    width:100%;
+    height:50%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    z-index: -100;
+}
+
+
+#idCursor{
+    position: fixed;
+    height:30px;
+    width: 30px;
+    border:13px dashed black;
+    background-color: white;
+    margin: -1%; 
+    animation: 0.0002s dos infinite;
+    border-radius: 50px;
+    box-shadow:0px 0px 0px 2px #e9042a;
+    
+    
+ }
+
+ #IdCortina{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: red; 
+    z-index: 10;
+    border-radius: 50px;
+    -webkit-animation:0.002s aparicion infinite;  
+    }   
